@@ -13,7 +13,7 @@ public class TestDataCollect {
 
     /**
      * Количество страниц для обработки по умолчанию 5, чтобы обрабатывать все страницы, измените
-     * EXAMPLE на true
+     * EXAMPLE на false
      */
     private static int countPages = 5;
     private  boolean EXAMPLE = true;
