@@ -113,8 +113,8 @@ public class TestDataCollect {
             /*
              * Обработка статистики по странице
              */
-            allSum[j] = sumWithEIS - sumWithOutEIS;
-            allLots[j] = countLotsWithEIS - countLotsWithOutEIS;
+            allSum[j] = sumWithEIS;
+            allLots[j] = countLotsWithEIS;
             Driver.log.writeData(j, countLotsWithEIS, sumWithEIS, countLotsWithOutEIS, sumWithOutEIS);
             Driver.log.writeDataConsol(j, countLotsWithEIS, sumWithEIS);
             top.changePageTable(); //новая страница таблицы
